@@ -1,0 +1,43 @@
+Type casting (Primitive data types):
+	Type casting is converting one data type into another one.
+	For example we can convert a short to byte and long to float etc.
+	There are two main types Implicit/widening/automatic and explicit/narrowing/Manual and 
+Implicit/widening/automatic type casting:
+	When Java converts the data types automatically for us. 
+	It only happens when we assign a smaller data type to a larger data type, 
+	because there is no data lost in this conversion.
+
+Explicit/narrowing/Manual casting:
+	When we convert a larger data type to a smaller data type it is called
+	Explicit/narrowing/Manual. I doesn't happen automatically. We have to do it explicitly Manually.
+Why we should learn type casting?
+	When we write code in our real life most of the time we use the code from others to save time
+	from others to save time and we might might also need to convert the data types to make
+	our code compatible with their code.
+What is the syntax of type casting?
+	We use () and inside the () we write the destination data type example if we want to convert a long to an int this is how we do it.
+	long var1=250;
+	int var2=(int)var1; // it is Explicit/narrowing/Manual
+	double var3=var2 //Implicit/widening/automatic
+	float f=250.5f;
+	double d=f; // Implicit/widening/automatic
+	==================================================================================
+I else conditions
+	If else conditions help us write code that can take the decision base on data.
+Why should we learn about If else conditions?
+	Because when we are solving a real life problem like testing a Web site our 
+	Programs need to make a lot of decisions.
+	If (the given user name and password matches)
+	{go to home page} ELSE {given user a warning}	
+	if (video freezing) {
+	System.out.println(“Stop video”)}
+	{else
+	System.out.println(“Keep Video”}
+What is the syntax for If else conditions
+	boolean isHungry=true;
+	if (isHungry){
+	System.out.println("Please eat something");
+	}ELSE{
+	System.out.println("Lets build so java programs");
+	}
+	

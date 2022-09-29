@@ -1,0 +1,23 @@
+package com.review.java;
+
+import java.util.Scanner;
+
+public class logicalOperatorcontinued {
+	public static void main(String[] args) {
+		
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("are you from batch 14?");
+		String batch14=scanner.next();
+		if(batch14.equalsIgnoreCase("yes")) {
+	           System.out.println("You are amazing");
+	        }
+	        else 
+	        {
+	            System.out.println("You are good");
+		}
+			
+		
+	  
+	  
+	}
+}
